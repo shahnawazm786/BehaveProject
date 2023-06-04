@@ -1,2 +1,1 @@
- Behave Tutorial
-    Welcome to behave!
+*Welcome to behave!
