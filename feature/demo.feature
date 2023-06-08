@@ -1,5 +1,5 @@
 
-  Feature: Demo
+  Feature: Login functionality
     Scenario: Login Scenario
       Given open website
       And enter user id
