@@ -1,11 +1,12 @@
 from behave import given
 from behave import then
 from behave import when
-
+from selenium import webdriver
 @given(u'open website')
 def step_impl(context):
     #raise NotImplementedError(u'STEP: Given open website')
-    print('Website open')
+    driver=webdriver.Chrome()
+    driver.get("https://www.google.com")
 
 
 @given(u'enter user id')
