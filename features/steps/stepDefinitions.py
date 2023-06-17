@@ -2,6 +2,7 @@ from behave import given
 from behave import then
 from behave import when
 from selenium import webdriver
+
 @given(u'open website')
 def step_impl(context):
     #raise NotImplementedError(u'STEP: Given open website')
@@ -9,7 +10,8 @@ def step_impl(context):
     driver.maximize_window()
     driver.implicitly_wait(10)
     driver.get("https://www.google.com")
-    driver.save_screenshot("C:\\PythonProject\\BehaveProject\\screenshot\\page.png")
+    driver.save_screenshot("..\\screenshot\\page1.png")
+
 
 
 
