@@ -10,7 +10,7 @@ def step_impl(context):
     driver.maximize_window()
     driver.implicitly_wait(10)
     driver.get("https://www.google.com")
-    driver.save_screenshot("..\\screenshot\\page1.png")
+    driver.save_screenshot("C:\\PythonProject\\BehaveProject\\screenshot\\page1.png")
 
 
 
