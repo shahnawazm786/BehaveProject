@@ -6,6 +6,8 @@ from selenium import webdriver
 def step_impl(context):
     #raise NotImplementedError(u'STEP: Given open website')
     driver=webdriver.Chrome()
+    driver.maximize_window()
+    driver.implicitly_wait(10)
     driver.get("https://www.google.com")
 
 
