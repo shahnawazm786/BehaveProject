@@ -9,6 +9,7 @@ def step_impl(context):
     driver.maximize_window()
     driver.implicitly_wait(10)
     driver.get("https://www.google.com")
+    driver.get_screenshot_as_file("../features/screenshot/page.png")
 
 
 
